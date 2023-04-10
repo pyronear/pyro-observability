@@ -9,6 +9,20 @@ Observability platform for edge devices
 - [Docker compose](https://docs.docker.com/compose/)
 The project was designed so that everything runs with Docker orchestration (standalone virtual environment), so you won't need to install any additional libraries.
 
+### Configuration
+
+In order to run the project, you will need to specific some information, which can be done using a `.env` file.
+This file will have to hold the following information:
+- `GRAFANA_SECURITY_ADMIN_USER`: the name of the grafana admin
+- `GRAFANA_SECURITY_ADMIN_PWD`: the password of the grafana admin
+
+So your `.env` file should look like something similar to:
+```
+GRAFANA_SECURITY_ADMIN_USER = admin
+GRAFANA_SECURITY_ADMIN_PWD = admin 
+```
+
+The file should be placed at the root folder of your local copy of the project.
 
 ## License
 
