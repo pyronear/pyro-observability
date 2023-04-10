@@ -35,3 +35,13 @@ services:
       - 3000
     ports:
       - "3000:3000"
+
+  loki:
+    image: grafana/loki:2.7.3
+    ports:
+      - "3100:3100"
+    volumes:
+      - ./loki/loki.yml:/etc/loki/local-config.yaml
+    command: 
+      -config.file=/etc/loki/local-config.yaml
+      -config.expand-env=true
