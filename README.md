@@ -24,6 +24,7 @@ GRAFANA_SECURITY_ADMIN_PWD = admin
 
 The file should be placed at the root folder of your local copy of the project.
 
+Additionally, you'll need to provide the list of prometheus scrape targets in `prometheus/prometheus.yml`
 ### Running the service
 
 You can run the service using the following command:
