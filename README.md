@@ -24,6 +24,14 @@ GRAFANA_SECURITY_ADMIN_PWD = admin
 
 The file should be placed at the root folder of your local copy of the project.
 
+### Running the service
+
+You can run the service using the following command:
+
+```shell
+docker-compose up -d --build
+```
+
 ## License
 
 Distributed under the Apache 2 License. See [`LICENSE`](LICENSE) for more information.
