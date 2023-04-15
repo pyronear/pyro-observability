@@ -56,3 +56,4 @@ services:
       -config.expand-env=true
     networks:
       - monitor-net
+    restart: unless-stopped
