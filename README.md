@@ -1,5 +1,5 @@
 # pyro-observability
-Observability platform for edge devices
+Observability platform for Pyronear edge devices based on Grafana, Prometheus and Loki
 
 ## Setup
 
